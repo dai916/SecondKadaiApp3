@@ -15,13 +15,13 @@ class ResultViewController: UIViewController {
     var name : String = "Tom"
     
     
-    @IBOutlet weak var button: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         label.text = "こんにちは\(name)さん"
+    
 
         
     }

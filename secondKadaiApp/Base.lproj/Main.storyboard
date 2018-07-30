@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gA-JR-g4W">
-                                <rect key="frame" x="125" y="70" width="125" height="21"/>
+                                <rect key="frame" x="10" y="70" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,12 +42,12 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BDV-3M-B6K" firstAttribute="top" secondItem="NcV-0x-mZn" secondAttribute="bottom" constant="78" id="0I9-e5-cwS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3gA-JR-g4W" secondAttribute="trailing" constant="10" id="4FF-r9-GoU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BDV-3M-B6K" secondAttribute="trailing" constant="125" id="Quj-sO-3H5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3gA-JR-g4W" secondAttribute="trailing" constant="125" id="Vd8-8P-RdJ"/>
-                            <constraint firstItem="3gA-JR-g4W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="cmd-9E-aGi"/>
                             <constraint firstItem="BDV-3M-B6K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="nQX-39-xw8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NcV-0x-mZn" secondAttribute="trailing" constant="125" id="pV2-CB-blb"/>
                             <constraint firstItem="NcV-0x-mZn" firstAttribute="top" secondItem="3gA-JR-g4W" secondAttribute="bottom" constant="91" id="ruH-TS-MLi"/>
+                            <constraint firstItem="3gA-JR-g4W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="tyQ-2G-N9V"/>
                             <constraint firstItem="NcV-0x-mZn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="wsJ-gL-l2M"/>
                             <constraint firstItem="3gA-JR-g4W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="zy0-6h-TFv"/>
                         </constraints>
@@ -78,7 +78,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyE-oQ-HrI">
-                                <rect key="frame" x="125" y="82" width="125" height="21"/>
+                                <rect key="frame" x="10" y="82" width="355" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -87,11 +87,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="GyE-oQ-HrI" firstAttribute="top" secondItem="hTD-Fa-OF2" secondAttribute="top" constant="62" id="53e-F2-Mbn"/>
-                            <constraint firstItem="hTD-Fa-OF2" firstAttribute="trailing" secondItem="GyE-oQ-HrI" secondAttribute="trailing" constant="125" id="5E8-hz-JUu"/>
                             <constraint firstItem="0hz-H9-ZQt" firstAttribute="leading" secondItem="hTD-Fa-OF2" secondAttribute="leading" constant="125" id="9FC-O7-yOI"/>
                             <constraint firstItem="0hz-H9-ZQt" firstAttribute="top" secondItem="GyE-oQ-HrI" secondAttribute="bottom" constant="188" id="OB4-i2-RFm"/>
+                            <constraint firstItem="GyE-oQ-HrI" firstAttribute="leading" secondItem="hTD-Fa-OF2" secondAttribute="leading" constant="10" id="OXu-HE-3b2"/>
+                            <constraint firstItem="hTD-Fa-OF2" firstAttribute="trailing" secondItem="GyE-oQ-HrI" secondAttribute="trailing" constant="10" id="RT9-2H-9Tf"/>
                             <constraint firstItem="hTD-Fa-OF2" firstAttribute="trailing" secondItem="0hz-H9-ZQt" secondAttribute="trailing" constant="125" id="pac-k8-x0j"/>
-                            <constraint firstItem="GyE-oQ-HrI" firstAttribute="leading" secondItem="hTD-Fa-OF2" secondAttribute="leading" constant="125" id="y25-Yd-BbM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="hTD-Fa-OF2"/>
                     </view>
